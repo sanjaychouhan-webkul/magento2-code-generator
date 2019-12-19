@@ -100,6 +100,14 @@ class OptionsPool {
                 'event',
                 InputArgument::OPTIONAL,
                 'enter event name'
+            ),
+
+            //cron specific
+            new InputOption(
+                'schedule',
+                'schedule',
+                InputArgument::OPTIONAL,
+                'enter schedule'
             )
 
         ];
